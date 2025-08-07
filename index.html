@@ -3,138 +3,185 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Auriculares y Mouse Inalámbricos</title>
+    <meta
+      name="description"
+      content="Tienda de auriculares y mouse inalámbricos con los mejores precios. Sony, JBL, Logitech y más."
+    />
+    <title>Auriculares y Mouse Inalámbricos - Tienda Electrónica</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="estilos.css" />
   </head>
-
   <body>
-    <header class="encabezado">
-      <h1 class="titulo">Auriculares y Mouse Inalámbricos</h1>
+    <header class="header py-3">
+      <div class="container">
+        <h1 class="main-title">🎧 Auriculares y Mouse Inalámbricos</h1>
+      </div>
     </header>
 
-    <nav class="navegacion">
-      <ul class="lista-navegacion">
-        <li><a href="#g435-g305">Auriculares G435 y Mouse G305</a></li>
-        <li><a href="#sony-wh-ch520">Auriculares Sony WH-CH520</a></li>
-        <li><a href="#jbl-tune-510bt">Auriculares JBL Tune 510BT</a></li>
-      </ul>
+    <nav class="navigation" role="navigation" aria-label="Navegación principal">
+      <div class="container">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#g435-g305">Combo G435 + G305</a></li>
+          <li><a class="nav-link" href="#sony-wh-ch520">Sony WH-CH520</a></li>
+          <li><a class="nav-link" href="#jbl-tune-510bt">JBL Tune 510BT</a></li>
+        </ul>
+      </div>
     </nav>
 
-    <main class="contenedor-productos">
-      <section id="g435-g305" class="producto">
-        <h2>Auriculares G435 y Mouse G305</h2>
-        <img
-          class="imagen-producto"
-          src="https://imgs.search.brave.com/hHQ2apDTmTD0z7eH4_KNs8hUr9mu1opZhNfPj8tyhpc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9kb2pp/dzJtOXR2djA5LmNs/b3VkZnJvbnQubmV0/Lzc0ODM3L3Byb2R1/Y3QvTV9jYXB0dXJh/LWRlLXBhbnRhbGxh/LTIwMjItMTItMDct/YS1sYS1zLTE1LTM2/LTA5MTAxMC5wbmc_/MTc2JnRpbWU9MTc0/NDg1OTQyMw"
-          alt="Combo Auriculares G435 y Mouse G305"
-          loading="lazy"
-        />
-        <div class="descripcion">
-          <h3>Descripción</h3>
-          <p>
-            Combo Gamer Auriculares G435 + Mouse G305 Logitech Blanco. Este
-            combo incluye auriculares inalámbricos G435 y el mouse G305, ambos
-            de Logitech, ideales para gamers que buscan calidad y comodidad.
-          </p>
-        </div>
-        <div class="caracteristicas">
-          <h3>Características</h3>
-          <ul>
-            <li>Auriculares G435: ligeros y cómodos, con sonido envolvente.</li>
-            <li>
-              Mouse G305: inalámbrico, con sensor óptico de alta precisión.
-            </li>
-            <li>
-              Conectividad Bluetooth y USB, compatible con múltiples
-              dispositivos.
-            </li>
-            <li>Diseño ergonómico y batería de larga duración.</li>
-          </ul>
-        </div>
-        <div class="precio">
-          <strong>Precio: $159.999</strong>
-        </div>
-        <button
-          class="boton-compra"
-          aria-label="Comprar Auriculares G435 y Mouse G305"
-        >
-          Comprar ahora
-        </button>
-      </section>
+    <main class="products-container container">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+        <div class="col">
+          <article id="g435-g305" class="product-card card">
+            <img
+              class="product-image"
+              src="https://imgs.search.brave.com/hzaJfc_rW7gHGOs9_ErB50UnWhTIy_QZOSiYPDEB8CU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9OUV9OUF84/MDU4MjUtTUxVNzU3/Nzk1NDU4MjJfMDQy/MDI0LU8ud2VicA"
+              alt="Combo Auriculares G435 y Mouse G305 Logitech"
+              loading="lazy"
+            />
 
-      <section id="sony-wh-ch520" class="producto">
-        <h2>Auriculares Sony WH-CH520</h2>
-        <img
-          class="imagen-producto"
-          src="https://imgs.search.brave.com/p3Rv70f6bR41T-nS7eaO7dAIW9bK5ZjT55uZJIupeD0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9RX05QXzJY/Xzc0NTAxMS1NQ084/MzE4NDUzMzcxNl8w/NDIwMjUtVi53ZWJw"
-          alt="Auriculares Sony WH-CH520"
-          loading="lazy"
-        />
-        <div class="descripcion">
-          <h3>Descripción</h3>
-          <p>
-            Auriculares inalámbricos Sony WH-CH520 con sonido de alta calidad y
-            batería de larga duración. Perfectos para uso diario y llamadas.
-          </p>
-        </div>
-        <div class="caracteristicas">
-          <h3>Características</h3>
-          <ul>
-            <li>Bluetooth 5.2, alcance de 10 metros.</li>
-            <li>Batería de hasta 50 horas de duración.</li>
-            <li>Diseño ligero y cómodo.</li>
-            <li>Micrófono integrado para llamadas.</li>
-          </ul>
-        </div>
-        <div class="precio">
-          <strong>Precio: $49.999</strong>
-        </div>
-        <button
-          class="boton-compra"
-          aria-label="Comprar Auriculares Sony WH-CH520"
-        >
-          Comprar ahora
-        </button>
-      </section>
+            <div class="card-body">
+              <h2 class="product-title">Combo G435 + Mouse G305</h2>
 
-      <section id="jbl-tune-510bt" class="producto">
-        <h2>Auriculares JBL Tune 510BT</h2>
-        <img
-          class="imagen-producto"
-          src="https://imgs.search.brave.com/aDreVQXmG5pW2_cFMtc28MSUqsx4RfhJXJE9Qy3J0o8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9OUV9OUF85/MjMxMjYtTUxVNjk5/OTczODMyMDJfMDYy/MDIzLU8ud2VicA"
-          alt="Auriculares JBL Tune 510BT"
-          loading="lazy"
-        />
-        <div class="descripcion">
-          <h3>Descripción</h3>
-          <p>
-            Auriculares JBL Tune 510BT inalámbricos con sonido Pure Bass y
-            conexión multipunto. Ideales para música y llamadas en movimiento.
-          </p>
+              <div class="info-section">
+                <h3>📝 Descripción</h3>
+                <p>
+                  Combo gamer premium de Logitech que incluye auriculares
+                  inalámbricos G435 y mouse G305. Perfectos para gaming
+                  profesional con calidad y comodidad excepcionales.
+                </p>
+              </div>
+
+              <div class="info-section">
+                <h3>⚡ Características</h3>
+                <ul class="features-list">
+                  <li>Auriculares G435: sonido envolvente premium</li>
+                  <li>Mouse G305: sensor HERO, 12,000 DPI</li>
+                  <li>Conexión inalámbrica de baja latencia</li>
+                  <li>Compatible con PC, Mac y consolas</li>
+                  <li>Diseño ergonómico para largas sesiones</li>
+                </ul>
+              </div>
+
+              <div class="price-section">
+                <p class="price">$169.999</p>
+              </div>
+
+              <button
+                class="buy-button btn w-100"
+                type="button"
+                aria-label="Comprar Combo Auriculares G435 y Mouse G305"
+              >
+                🛒 Comprar Ahora
+              </button>
+            </div>
+          </article>
         </div>
-        <div class="caracteristicas">
-          <h3>Características</h3>
-          <ul>
-            <li>Sonido JBL Pure Bass.</li>
-            <li>Hasta 40 horas de batería.</li>
-            <li>Conexión Bluetooth multipunto.</li>
-            <li>Diseño plegable y portátil.</li>
-          </ul>
+
+        <div class="col">
+          <article id="sony-wh-ch520" class="product-card card">
+            <img
+              class="product-image"
+              src="https://imgs.search.brave.com/NrpKvj0aax30X4yl25RXkodL5dQYsX3-PKLiR0xTFpk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9RX05QXzJY/Xzk2OTg2Ny1DQlQ3/ODc0MTUyOTg3NV8w/ODIwMjQtVi53ZWJw"
+              alt="Auriculares Sony WH-CH520 inalámbricos"
+              loading="lazy"
+            />
+
+            <div class="card-body">
+              <h2 class="product-title">Sony WH-CH520</h2>
+
+              <div class="info-section">
+                <h3>📝 Descripción</h3>
+                <p>
+                  Auriculares inalámbricos Sony con calidad de sonido superior y
+                  batería de ultra larga duración. Ideales para uso diario,
+                  trabajo y entretenimiento.
+                </p>
+              </div>
+
+              <div class="info-section">
+                <h3>⚡ Características</h3>
+                <ul class="features-list">
+                  <li>Bluetooth 5.2 con alcance de 10 metros</li>
+                  <li>Batería excepcional: hasta 50 horas</li>
+                  <li>Diseño ultraligero y ergonómico</li>
+                  <li>Micrófono HD para llamadas cristalinas</li>
+                  <li>Carga rápida: 3 horas con 10 min</li>
+                </ul>
+              </div>
+
+              <div class="price-section">
+                <p class="price">$49.999</p>
+              </div>
+
+              <button
+                class="buy-button btn w-100"
+                type="button"
+                aria-label="Comprar Auriculares Sony WH-CH520"
+              >
+                🛒 Comprar Ahora
+              </button>
+            </div>
+          </article>
         </div>
-        <div class="precio">
-          <strong>Precio: $39.999</strong>
+
+        <div class="col">
+          <article id="jbl-tune-510bt" class="product-card card">
+            <img
+              class="product-image"
+              src="https://imgs.search.brave.com/leZe_QsLTIxtXAFBp97IFYogv3zLl6B7Elhj6Q9NOb0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9RX05QXzJY/XzY1MjUxMC1NTFU3/NzExMzk2ODU1Nl8w/NjIwMjQtRS1mb25l/LWJsdWV0b290aC1q/YmwtdHVuZS01MTBi/dC1yb3NhLndlYnA"
+              alt="Auriculares JBL Tune 510BT con Pure Bass"
+              loading="lazy"
+            />
+
+            <div class="card-body">
+              <h2 class="product-title">JBL Tune 510BT</h2>
+
+              <div class="info-section">
+                <h3>📝 Descripción</h3>
+                <p>
+                  Auriculares JBL con tecnología Pure Bass y conectividad
+                  multipunto avanzada. Perfectos para amantes de la música que
+                  buscan portabilidad y calidad de sonido.
+                </p>
+              </div>
+
+              <div class="info-section">
+                <h3>⚡ Características</h3>
+                <ul class="features-list">
+                  <li>Sonido JBL Pure Bass legendario</li>
+                  <li>Batería de larga duración: 40 horas</li>
+                  <li>Bluetooth multipunto inteligente</li>
+                  <li>Diseño plegable ultra portátil</li>
+                  <li>Controles táctiles intuitivos</li>
+                </ul>
+              </div>
+
+              <div class="price-section">
+                <p class="price">$39.999</p>
+              </div>
+
+              <button
+                class="buy-button btn w-100"
+                type="button"
+                aria-label="Comprar Auriculares JBL Tune 510BT"
+              >
+                🛒 Comprar Ahora
+              </button>
+            </div>
+          </article>
         </div>
-        <button
-          class="boton-compra"
-          aria-label="Comprar Auriculares JBL Tune 510BT"
-        >
-          Comprar ahora
-        </button>
-      </section>
+      </div>
     </main>
 
-    <footer>
-      <p>© 2025 Tienda de Electrónica</p>
+    <footer class="footer">
+      <div class="container">
+        <p>© 2025 Tienda de Electrónica - Tecnología de Calidad</p>
+      </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
